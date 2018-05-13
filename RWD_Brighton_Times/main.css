@@ -394,15 +394,16 @@ footer a {
 
 @media screen and (max-width: 549px) {
   nav {
-    width: 300px;
+    width: 200px;
     height: 100%;
     position: absolute;
-    transform: translate(-300px, 0);
-    transition: transform 0.3s ease;
+    transform: translate(-200px, 0);
+    transition: transform 0.5s ease;
   }
   nav.open {
     transform: translate(0, 0);
   }
+  /* nav and nav.open code originally found in Udacity RWD "Pattern: Off Canvas" class, accessed on 05/12/18, at https://classroom.udacity.com/courses/ud893/lessons/3561069759/concepts/35307193050923 */
   i, #nav_menu {
     visibility: visible;
   }
